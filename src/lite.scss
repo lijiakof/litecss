@@ -1,0 +1,19 @@
+$color-theme: #f4616d;
+$color-info: #5285D6;
+$color-warning: #ee9900;
+$color-danger: #ea6858;
+
+@import "core/ui-reset";
+@import "form/ui-button";
+@import "form/ui-select";
+@import "wigdet/ui-calendar";
+
+.ui-button {
+    @include uiButton();
+}
+.ui-select {
+    @include uiSelect(40px);
+}
+.ui-calendar {
+    @include uiCalendar();
+}

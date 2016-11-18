@@ -1,0 +1,78 @@
+@charset "UTF-8";
+// todo: normalize.css
+body {
+    margin: 0;
+    border: 0;
+    -webkit-touch-callout: none;
+    /*去除 ios safari <a>以及 <input> 选中时高亮显示，去除高亮后我们可以自定义样式*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-size: 14px;
+    font-family: PingFang SC, Microsoft YaHei, simhei, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    color: #333;
+}
+
+a,
+a:link {
+    -webkit-appearance: none;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+div,
+input,
+select,
+textarea, {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    outline-width: 0;
+    box-shadow: none;
+}
+
+div,
+select,
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"]{
+     -webkit-appearance: none;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline-width: 0;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+input:required {
+    //去除 firefox 浏览器红色边框
+    box-shadow: none;
+}
+
+button {
+    border: none;
+    outline-width: 0;
+    box-shadow: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+img {
+    border: none;
+}

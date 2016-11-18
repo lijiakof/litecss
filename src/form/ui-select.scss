@@ -1,0 +1,5 @@
+@mixin uiSelect ($height: 40px, $color: #ccc) {
+    min-width: 20px;
+    height: $height;
+    line-height: $height;
+}

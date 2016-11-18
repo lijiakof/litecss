@@ -1,0 +1,27 @@
+@mixin uiButton ($height: 28px, $color: #ccc) {
+    
+    min-width: 50px;
+    background-color: $color-theme;
+    height: $height;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+
+    &.button-sm {
+        height: 25px;
+        font-size: 12px;
+    }
+    &.button-bg {
+        height: 40px;
+        font-size: 16px;
+        border-radius: 2px;
+    }
+    &.button-lg {
+        height: 50px;
+        font-size: 20px;
+        padding: 0 15px;
+        border-radius: 4px;
+    }
+}
