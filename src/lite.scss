@@ -1,4 +1,7 @@
 $color-theme: #f4616d;
+$color-border: #e8e8e8;
+$color-text: #333;
+$color-bg: #f7f7f7;
 $color-info: #5285D6;
 $color-warning: #ee9900;
 $color-danger: #ea6858;
@@ -6,6 +9,10 @@ $color-danger: #ea6858;
 @import "core/ui-reset";
 @import "form/ui-button";
 @import "form/ui-select";
+@import "form/ui-input";
+@import "form/ui-textarea";
+@import "layout/ui-table";
+@import "layout/ui-form";
 @import "wigdet/ui-calendar";
 
 .ui-button {
@@ -13,6 +20,18 @@ $color-danger: #ea6858;
 }
 .ui-select {
     @include uiSelect(40px);
+}
+.ui-input {
+    @include uiInput();
+}
+.ui-textarea {
+    @include uiTextarea();
+}
+.ui-table {
+    @include uiTable();
+}
+.ui-form {
+    @include uiForm();
 }
 .ui-calendar {
     @include uiCalendar();

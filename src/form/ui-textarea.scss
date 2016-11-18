@@ -1,0 +1,9 @@
+@mixin uiTextarea () {
+
+    min-height: 20px;
+    line-height: 20px;
+    padding: 9px;
+    border: 1px solid $color-border;
+    font-size: 14px;
+    border-radius: 4px;
+}

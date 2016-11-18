@@ -30,6 +30,7 @@ textarea, {
     border-radius: 0;
     outline-width: 0;
     box-shadow: none;
+    font-size: 14px;
 }
 
 div,
@@ -47,9 +48,6 @@ select:focus,
 textarea:focus {
     outline-width: 0;
     box-shadow: none;
-    padding: 0;
-    margin: 0;
-    border-radius: 0;
 }
 
 input:required {

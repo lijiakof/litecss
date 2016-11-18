@@ -2,4 +2,23 @@
     min-width: 20px;
     height: $height;
     line-height: $height;
+    display: inline-block;
+    width: 200px;
+    border: 1px solid $color-border;
+    position: relative;
+    cursor: pointer;
+    padding: 0 10px;
+    border-radius: 4px;
+    &::after {
+        content: "";
+        position: absolute;
+        border-right: 1px solid $color-border;
+        border-bottom: 1px solid $color-border;
+        width: 6px;
+        height: 6px;
+        transform: rotate(45deg);
+        right: 10px;
+        top: 50%;
+        margin-top: -5px;
+    }
 }

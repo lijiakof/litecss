@@ -2,14 +2,31 @@
 
 ## api
 * Core
-    * theme
-    * actived
-    * checked
-    * selected
+    * color
+        * theme
+        * text
+        * border
+        * bg
+        * assist.info
+        * assist.warning
+        * assist.danger
+        * assist.success
+    * size
+        * normal
+        * small
+        * big
+        * large
+    * state
+        * hover
+        * focus
+        * //active
+        * checked ()
+        * disabled
     * reset
 * Layout
     * ui-grid
     * ui-table
+    * ui-form
 * Container
     * ui-span
     * ui-listview
