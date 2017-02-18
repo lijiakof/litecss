@@ -1,6 +1,6 @@
 # Summary
 
-* [简介](README.md)
+* [简介](../README.md)
 
 ## 基础
 * color
