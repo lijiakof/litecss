@@ -19,7 +19,7 @@
     * state
         * hover
         * focus
-        * //active
+        * active
         * checked ()
         * disabled
     * reset
