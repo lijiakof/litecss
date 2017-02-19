@@ -29,13 +29,13 @@
     * ui-tag
     * ui-tooltip
 * Forms
+    * ui-button
     * ui-text
     * ui-textarea
     * ui-checkbox
     * ui-radio
-    * ui-select
     * ui-switcher
-    * ui-button
+    * ui-select
     * ui-range
 * Widget
     * ui-mask
