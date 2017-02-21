@@ -3,9 +3,9 @@
 * [简介](README.md)
 
 ## 基础
-* color
-* size
-* state
+* [color](core.md#color)
+* [size](core.md#size)
+* [state](core.md#state)
 * reset
 
 ## 布局

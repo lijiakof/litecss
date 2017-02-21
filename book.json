@@ -4,12 +4,5 @@
     "description": "a css lib",
      "styles": {
         "website": "styles/website.css"
-    },
-    "plugins": ["atoc"],
-    "pluginsConfig": {
-        "atoc": {
-            "addClass": true,
-            "className": "atoc"
-        }
     }
 }
