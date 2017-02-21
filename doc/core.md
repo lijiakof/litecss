@@ -1,8 +1,8 @@
 # 基础
 
 ## 颜色 {#color}
-| 样式 | 备注 | 默认 | 深色 | 浅色 | 举例 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
+| 样式 | 备注 |  深色 | 浅色 | 举例 |
+| :--- | :--- | :--- | :--- | :--- |
 | theme | 主题色 | light theme | dark theme |  |
 | text | 文本 | light text | dark text |  |
 | border | 边框 | light border | dark border |  |
@@ -23,10 +23,10 @@
 ## 状态 {#state}
 | 样式 | 备注 | 举例 |
 | :--- | :--- | :--- |
-| hover | 悬停 |  |
-| focus | 焦点 |  |
-| active | 激活 |  |
-| disabled | 不可用 |  |
+| hover | 悬停 | `<a class="hover"></a>` |
+| focus | 焦点 | `<a class="focus"></a>` |
+| active | 激活 | `<a class="active"></a>` |
+| disabled | 不可用 | `<a class="disabled"></a>` |
 | selected? |  |  |
 | checked? |  |  |
 
