@@ -1,7 +1,7 @@
 # 基础
 
 ## 颜色 {#color}
-| 样式 | 备注 |  深色 | 浅色 | 举例 |
+| class | 备注 |  深色 | 浅色 | 举例 |
 | :--- | :--- | :--- | :--- | :--- |
 | theme | 主题色 | light theme | dark theme |  |
 | text | 文本 | light text | dark text |  |
@@ -13,15 +13,15 @@
 | success | 成功 | light success | dark success | `<span class="success">成功</span>` |
 
 ## 尺寸 {#size}
-| 样式 | 备注 | 举例 |
+| class | 备注 | 举例 |
 | :--- | :--- | :--- |
 | normal | 普通尺寸 | `<button class="normal"></button>` |
 | small | 小尺寸 | `<button class="small"></button>` |
 | big | 大尺寸 | `<button class="big"></button>` |
-| large | 巨大 | `<button class="large"></button>` |
+| large | 巨大尺寸 | `<button class="large"></button>` |
 
 ## 状态 {#state}
-| 样式 | 备注 | 举例 |
+| class | 备注 | 举例 |
 | :--- | :--- | :--- |
 | hover | 悬停 | `<a class="hover"></a>` |
 | focus | 焦点 | `<a class="focus"></a>` |
