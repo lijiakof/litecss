@@ -21,14 +21,16 @@
 
 | class | 备注 | 举例 |
 | :--- | :--- | :--- |
-| ui-grid | 网格容器 | `<div class="ui-grid"></div>` |
-| grid-col-1 | 占用网格 1/12 的列 | `<div class="ui-grid"><div class="grid-col-1"></div></div>` |
-| grid-col-2 | 占用网格 1/6 的列 | `<div class="ui-grid"><div class="grid-col-2"></div></div>` |
-| grid-col-3 | 占用网格 1/4 的列 | `<div class="ui-grid"><div class="grid-col-3"></div></div>` |
-| grid-col-4 | 占用网格 1/3 的列 | `<div class="ui-grid"><div class="grid-col-4"></div></div>` |
-| grid-col-5 | 占用网格 5/12 的列 | `<div class="ui-grid"><div class="grid-col-5"></div></div>` |
-| grid-col-6 | 占用网格 1/2 的列 | `<div class="ui-grid"><div class="grid-col-10"></div></div>` |
-| grid-col-10 | 占用网格 5/6 的列 | `<div class="ui-grid"><div class="grid-col-10"></div></div>` |
+| ui-grid | 栅格容器 | `<div class="ui-grid"></div>` |
+| grid-col-1 | 占用栅格 1/12 的列 | `<div class="ui-grid"><div class="grid-col-1"></div></div>` |
+| grid-col-2 | 占用栅格 1/6 的列 | `<div class="ui-grid"><div class="grid-col-2"></div></div>` |
+| grid-col-3 | 占用栅格 1/4 的列 | `<div class="ui-grid"><div class="grid-col-3"></div></div>` |
+| grid-col-4 | 占用栅格 1/3 的列 | `<div class="ui-grid"><div class="grid-col-4"></div></div>` |
+| grid-col-6 | 占用栅格 1/2 的列 | `<div class="ui-grid"><div class="grid-col-6"></div></div>` |
+| grid-col-8 | 占用栅格 2/3 的列 | `<div class="ui-grid"><div class="grid-col-8"></div></div>` |
+| grid-col-9 | 占用栅格 3/4 的列 | `<div class="ui-grid"><div class="grid-col-9"></div></div>` |
+| grid-col-10 | 占用栅格 5/6 的列 | `<div class="ui-grid"><div class="grid-col-10"></div></div>` |
+| grid-col-11 | 占用栅格 11/12 的列 | `<div class="ui-grid"><div class="grid-col-11"></div></div>` |
 
 ### 如何使用
 
