@@ -3,7 +3,7 @@
 * [简介](README.md)
 
 ## 基础
-* [规范](standars.md)
+* [规范](standards.md)
 * [color](core.md#color)
 * [size](core.md#size)
 * [state](core.md#state)
