@@ -18,7 +18,7 @@
 * Container
     * ui-span
     * ui-table
-    * ui-listview
+    * ui-list
     * ui-frame
     * ui-swiper
 * Navigation
