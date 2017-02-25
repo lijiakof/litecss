@@ -36,13 +36,12 @@
     * ui-textarea
     * ui-checkbox
     * ui-radio
-    * ui-switcher
+    * ui-switch
     * ui-select
     * ui-range
 * Widget
     * ui-mask
-    * ui-loader
+    * ui-toast
     * ui-dialog
-    * ui-tips
     * ui-calendar
     * ui-time

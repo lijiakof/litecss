@@ -1,6 +1,7 @@
 # 基础
 
 ## 规范
+没有规矩不能成方圆，好的框架都有一套统一的规范和规则，这样更容易学习和使用。
 
 ### 基础：
 * 采用 SASS
@@ -27,6 +28,7 @@
 | 缩写 | 全称 | 描述 |
 | :--- | :--- | :--- |
 | app | application |  |
+| arr | arrow | 箭头 |
 | btn | button | 按钮 |
 | clr | color | 颜色 |
 | col | column | 列 |
@@ -35,23 +37,27 @@
 | sel | select | 选择 |
 | tbl | table | 表格 |
 | wnd | window | 窗口 |
-|  | container | 容器 |
+| cnt | container | 容器 |
+| bg | background | 背景 |
 | frm | frame | 框架 |
 | swp | swiper |  |
 |  | badge | 勋章 |
-|  | tooltip |  |
+| tip | tooltip |  |
 |  | textarea | 文本框 |
-|  | checkbox | 多选 |
-|  | radio | 单选 |
-|  | switcher | 开关 |
-|  | range |  |
-|  | loader | 加载 |
+| chk | checkbox | 多选 |
+| rdo | radio | 单选 |
+| swt | switch | 开关 |
+| rng | range | 范围 |
+| tst | toast | 消息提示框 |
 | cal | calendar | 日历 |
+| grp | group | 组 |
+| pnl | panel | 块 |
+| nav | navigation | 导航 |
 
 
 举例：
 
 ```
 ui-btn 
-ui-list list-item list-arrow
+ui-list list-item list-arr
 ```

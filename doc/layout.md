@@ -1,23 +1,29 @@
 # 布局
 
 ## 弹性容器 {#container}
-弹性容器 `ui-container` 可以主动识别屏幕尺寸，让其内部的内容水平居中在浏览器中，当浏览器屏幕小到某一尺寸，它会占用浏览器可视区域的 100%，当然它也会随着浏览器的大小变化而变化。当我们想固定它的宽度时，我们可以使用 `container-fixed` 属性；
+弹性容器 `ui-cnt` 可以主动识别屏幕尺寸，让其内部的内容水平居中在浏览器中，当浏览器屏幕小到某一尺寸，它会占用浏览器可视区域的 100%，当然它也会随着浏览器的大小变化而变化。当我们想固定它的宽度时，我们可以使用 `cnt-fixed` 属性；
 
 | class | 备注 | 举例 |
 | :--- | :--- | :--- |
-| ui-container | 弹性容器 | `<div class="ui-container"></div>` |
-| container-fixed | 固定宽度(默认 1024px) | `<div class="ui-container container-fixed"></div>` |
+| ui-cnt | 弹性容器 | `<div class="ui-cnt"></div>` |
+| cnt-fixed | 固定宽度(默认 1024px) | `<div class="ui-cnt cnt-fixed"></div>` |
+
 
 ### 如何使用
 
 ```
-<div class="ui-container">
+<div class="ui-cnt">
     内容
 </div>
 ```
 
 ## 栅格布局 {#grid}
 我们将支持最多 12 个分栏的栅格系统，满足您在 Mobile 和 PC 端的排版。
+
+### 结构
+ui-grid
+    |-grid-col-*
+    
 
 | class | 备注 | 举例 |
 | :--- | :--- | :--- |
@@ -62,6 +68,13 @@
 表单在页面上非常常用，我们对表单的布局做了一些抽象和总结，常用的布局方式我们已经满足，当然它不会 100% 的满足开发需求，特殊情况需要你自己来定义。
 
 当然表单布局可以嵌套在栅格布局中，这样使得表单更加的灵活排布。
+
+### 结构
+ui-form
+    |-form-item [arr]
+        |-form-item-text
+        |-form-item-value[right]
+        |-form-item-tip
 
 | class | 备注 | 举例 |
 | :--- | :--- | :--- |
