@@ -20,7 +20,6 @@
     * ui-table
     * ui-list
     * ui-frame
-    * ui-swiper
 * Navigation
     * ui-tabs
     * ui-menu
@@ -32,8 +31,7 @@
     * ui-tooltip
 * Forms
     * ui-button
-    * ui-text
-    * ui-textarea
+    * ui-text(textarea)
     * ui-checkbox
     * ui-radio
     * ui-switch
@@ -45,3 +43,4 @@
     * ui-dialog
     * ui-calendar
     * ui-time
+    * ui-swiper

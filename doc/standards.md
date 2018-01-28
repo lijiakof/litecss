@@ -38,12 +38,11 @@
 | tbl | table | 表格 |
 | wnd | window | 窗口 |
 | cnt | container | 容器 |
-| bg | background | 背景 |
+| bkg | background | 背景 |
 | frm | frame | 框架 |
 | swp | swiper |  |
 | bdg | badge | 勋章 |
 | tip | tooltip |  |
-| txt | textarea | 文本框 |
 | chk | checkbox | 多选 |
 | rdo | radio | 单选 |
 | swt | switch | 开关 |
